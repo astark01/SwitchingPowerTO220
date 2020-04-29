@@ -44,7 +44,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -53,6 +53,77 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SAGTIKSJ
+
+[ProjectVariant1]
+UniqueID=F79A0084-E8A0-4947-B04A-3EBB544E322C
+Description=PowerSwitching at 3.3V
+AllowFabrication=0
+ParameterCount=2
+VariationCount=1
+Variation1=Designator=L1|UniqueId=\TWXFUZBK|Kind=2|AlternatePart=15uF|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=LibrairieSchema.SchLib|AltLibLink_SymbolReference=Ind 22uH 1.1A CMS|AltLibLink_DesignItemID=Ind 15uH 1.3A CMS|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=LibrairieSchema.SchLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=Coil CMS TDK VLCF|AltLibLink_IsSameFootprint=True
+ParamVariation1=ParameterName=Comment|VariantValue=15uF
+ParamDesignator1=L1
+ParamVariation2=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator2=L1
+ParamVariation3=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator3=L1
+ParamVariation4=ParameterName=ComponentLink1URL|VariantValue=https://docs.rs-online.com/4480/0900766b814e91e3.pdf
+ParamDesignator4=L1
+ParamVariation5=ParameterName=Description|VariantValue=Inductance bobinée CMS, 15 µH, 1.3A max , dimensions 5.3 x 5 x 2mm, Blindé, série VLCF
+ParamDesignator5=L1
+ParamVariation6=ParameterName=Footprint|VariantValue=Coil CMS TDK VLCF
+ParamDesignator6=L1
+ParamVariation7=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator7=L1
+ParamVariation8=ParameterName=Library Reference|VariantValue=Ind 15uH 1.3A CMS
+ParamDesignator8=L1
+ParamVariation9=ParameterName=Mfg|VariantValue=TDK
+ParamDesignator9=L1
+ParamVariation10=ParameterName=MfgPn|VariantValue=VLCF5020T-150MR71
+ParamDesignator10=L1
+ParamVariation11=ParameterName=PCB3D|VariantValue= 
+ParamDesignator11=L1
+ParamVariation12=ParameterName=Pin Info|VariantValue= 
+ParamDesignator12=L1
+ParamVariation13=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator13=L1
+ParamVariation14=ParameterName=Simulation|VariantValue= 
+ParamDesignator14=L1
+ParamVariation15=ParameterName=Supplier 1|VariantValue=Digi-Key
+ParamDesignator15=L1
+ParamVariation16=ParameterName=Supplier 2|VariantValue=Digi-Key
+ParamDesignator16=L1
+ParamVariation17=ParameterName=Supplier 3|VariantValue=Digi-Key
+ParamDesignator17=L1
+ParamVariation18=ParameterName=Supplier 4|VariantValue=RSComponents
+ParamDesignator18=L1
+ParamVariation19=ParameterName=Supplier 5|VariantValue=RSComponents
+ParamDesignator19=L1
+ParamVariation20=ParameterName=Supplier 6|VariantValue=Mouser
+ParamDesignator20=L1
+ParamVariation21=ParameterName=Supplier Part Number 1|VariantValue=445-3199-1-ND
+ParamDesignator21=L1
+ParamVariation22=ParameterName=Supplier Part Number 2|VariantValue=445-3199-6-ND
+ParamDesignator22=L1
+ParamVariation23=ParameterName=Supplier Part Number 3|VariantValue=445-3199-2-ND
+ParamDesignator23=L1
+ParamVariation24=ParameterName=Supplier Part Number 4|VariantValue=6142835
+ParamDesignator24=L1
+ParamVariation25=ParameterName=Supplier Part Number 5|VariantValue=6142835P
+ParamDesignator25=L1
+ParamVariation26=ParameterName=Supplier Part Number 6|VariantValue=810-VLCF5020T150MR71
+ParamDesignator26=L1
+ParamVariation27=ParameterName=Value|VariantValue=15uH
+ParamDesignator27=L1
+ParamVariationCount=27
+
+[Parameter2_1]
+Name=Vin
+Value=Vin 4.5V to 30V
+
+[Parameter2_2]
+Name=Vout
+Value=Vout 3.3V
 
 [Configuration1]
 Name=Sources
