@@ -1,4 +1,4 @@
-[Design]
+ï»¿[Design]
 Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
@@ -71,6 +71,40 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LQEAXOVU
 
+[Document3]
+DocumentPath=Draftsman.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document4]
+DocumentPath=jobOutput.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=F79A0084-E8A0-4947-B04A-3EBB544E322C
 Description=PowerSwitching at 3.3V
@@ -86,7 +120,7 @@ ParamVariation3=ParameterName=ComponentLink1Description|VariantValue=Datasheet
 ParamDesignator3=L1
 ParamVariation4=ParameterName=ComponentLink1URL|VariantValue=https://docs.rs-online.com/4480/0900766b814e91e3.pdf
 ParamDesignator4=L1
-ParamVariation5=ParameterName=Description|VariantValue=Inductance bobinée CMS, 15 µH, 1.3A max , dimensions 5.3 x 5 x 2mm, Blindé, série VLCF
+ParamVariation5=ParameterName=Description|VariantValue=Inductance bobinÃ©e CMS, 15 ÂµH, 1.3A max , dimensions 5.3 x 5 x 2mm, BlindÃ©, sÃ©rie VLCF
 ParamDesignator5=L1
 ParamVariation6=ParameterName=Footprint|VariantValue=Coil CMS TDK VLCF
 ParamDesignator6=L1
@@ -132,14 +166,16 @@ ParamVariation26=ParameterName=Supplier Part Number 6|VariantValue=810-VLCF5020T
 ParamDesignator26=L1
 ParamVariation27=ParameterName=Value|VariantValue=15uH
 ParamDesignator27=L1
-Variation2=Designator=R1|UniqueId=\EVPBOESD|Kind=0|AlternatePart==Value
+Variation2=Designator=R1|UniqueId=\VLGMFBFC|Kind=0|AlternatePart==Value
 ParamVariation28=ParameterName=Value|VariantValue=31.6k
 ParamDesignator28=R1
 ParamVariation29=ParameterName=Comment|VariantValue==Value
 ParamDesignator29=R1
 ParamVariation30=ParameterName=MfgPn|VariantValue=MC00625W0402131K6
 ParamDesignator30=R1
-ParamVariationCount=30
+ParamVariation31=ParameterName=Description|VariantValue=31K6 0.063W 1% 0402 (1005 Metric)  SMD
+ParamDesignator31=R1
+ParamVariationCount=31
 
 [Parameter2_1]
 Name=Vin
